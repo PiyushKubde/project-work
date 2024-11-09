@@ -1,0 +1,166 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #232536;
+    color: white;
+    padding: 1em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #FFD050;
+    text-decoration: none;
+}
+
+/* Featured Post Section */
+.featured-post {
+    background-color: #f4f4f4;
+    padding: 2em;
+}
+
+.featured-content {
+    display: flex;
+    align-items: center;
+}
+
+.featured-content img {
+    width: 50%;
+    margin-right: 2em;
+}
+
+.featured-text h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.featured-text p {
+    margin-bottom: 1em;
+}
+
+.featured-text button {
+    background-color: #FFD050;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+/* All Posts Section */
+.all-posts {
+    padding: 2em;
+}
+
+.all-posts h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+.post-item {
+    background-color: #ffffff;
+    padding: 1em;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.post-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.post-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.post-item p {
+    margin-bottom: 1em;
+}
+
+.post-item a {
+    color: #FFD050;
+    text-decoration: none;
+}
+
+/* Categories Section */
+.categories {
+    text-align: center;
+    padding: 2em;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.category-card {
+    padding: 1em 2em;
+    background-color: #FFD050;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+/* Join Us Section */
+.join-us {
+    text-align: center;
+    padding: 2em;
+}
+
+.join-us button {
+    padding: 0.5em 1.5em;
+    background-color: #FFD050;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #232536;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.footer-content form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.footer-content form input[type="email"] {
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
+
+.footer-content form button {
+    padding: 0.5em 1em;
+    background-color: #FFD050;
+    border: none;
+    cursor: pointer;
+}
